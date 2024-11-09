@@ -70,3 +70,5 @@ document.querySelector('.desiva-contact-form').addEventListener('submit', (e) =>
 document.querySelector('.desiva-edit-profile-btn').addEventListener('click', () => {
     alert("Profile editing is coming soon!");
 });
+
+

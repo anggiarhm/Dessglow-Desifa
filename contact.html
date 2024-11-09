@@ -56,11 +56,13 @@
             <p class="desiva-contact-description">Kami ingin mendengar pendapat Anda! Silakan isi formulir di bawah ini dan kami akan menghubungi Anda sesegera mungkin.</p>
             
             <!-- Contact Form -->
-            <form class="desiva-contact-form" action="#" method="POST">
+            <form id="contact-form" class="desiva-contact-form"action="https://api.web3forms.com/submit" method="POST">
+                <div class="desiva-form-group">
+                    <input type="hidden" name="access_key" value="fee0778f-41db-4c32-9300-584d0e97566f">
+                </div>
                 <div class="desiva-form-group">
                     <label for="name">Nama Lengkap</label>
-                    <input type="text" id="name" name="name" required placeholder="Masukkan nama lengkap Anda
-                    ">
+                    <input type="text" id="name" name="name" required placeholder="Masukkan nama lengkap Anda">
                 </div>
                 <div class="desiva-form-group">
                     <label for="email">Alamat Surel</label>
@@ -72,6 +74,7 @@
                 </div>
                 <button type="submit" class="desiva-submit-button">Kirim Pesan</button>
             </form>
+            
         </div>
     </section>
 
@@ -108,6 +111,8 @@
         </div>
     </footer>
 
+
     <script src="script.js"></script>
+    
 </body>
 </html>
