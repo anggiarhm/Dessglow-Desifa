@@ -53,22 +53,6 @@ document.querySelectorAll('.offer-button').forEach(button => {
 
 
 // contac
-document.querySelector('.desiva-contact-form').addEventListener('submit', (e) => {
-    e.preventDefault();
-    const name = document.querySelector('#name').value;
-    const email = document.querySelector('#email').value;
-    const message = document.querySelector('#message').value;
 
-    if (name && email && message) {
-        alert('Your message has been sent!');
-    } else {
-        alert('Please fill in all fields!');
-    }
-});
-
-//Profile 
-document.querySelector('.desiva-edit-profile-btn').addEventListener('click', () => {
-    alert("Profile editing is coming soon!");
-});
 
 
